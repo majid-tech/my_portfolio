@@ -132,7 +132,7 @@ header .hero-content {
 
 .projects {
     width: 1200px;
-    height: 600px;
+    height: 500px;
     margin: 0 auto;
 }
 
@@ -144,5 +144,50 @@ header .hero-content {
 .card { 
     width: 300px;
     height: 400px;
+    border-radius: 8px;
     background-image: url(images/project-card-image-size\ 1.jpg);
 }
+
+.card h3 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Btn {
+    width: 240px;
+    height: 60px;
+    margin-top: 50px;
+}
+
+.Btn a{
+    width: fit-content;
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: grey;
+    padding: 14px;
+    color: black;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
