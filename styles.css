@@ -81,7 +81,7 @@ header .hero-content {
     padding: 60px;
 }
 
-.about h2 {
+.about h2, .skills h2 {
     color: #000;
     font-family: League Spartan;
     font-size: 32px;
